@@ -1,0 +1,201 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--w3-school link-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!---bootstrap links--->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!--Get your own code at fontawesome.com-->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>System Information</title>
+    <style>
+        .responsive {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+    </head>
+
+        <body style='background-color:#231E07'>
+            <nav class='navbar navbar-expand-sm navbar-dark fixed-top' style='background-color: #1C1806;'>
+                <a class='navbar-brand' href='/homepage.html' title='Homepage'><i class='fas fa-igloo'
+                        style='font-size:48px;color:#D1B02A'></i></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class='navbar-nav'>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='#' style='color:#d1b02a' title='work in progress'>Blog</a>
+                        </li>
+                        <li class='nav-item dropdown'>
+                            <a href="#" class='nav-link dropdown-toggle' style='color:#d1b02a'
+                                data-toggle='dropdown'>Projects</a>
+                            <div class='dropdown-menu' style='background-color:#E1CD77;'>
+                                <a href="#" class='dropdown-item'>Project 1</a>
+                                <a href="#" class='dropdown-item'>Projects 2</a>
+                            </div>
+                        </li>
+                        <li class='nav-item dropdown'>
+                            <a href="#" class='nav-link dropdown-toggle' style='color:#d1b02a' data-toggle='dropdown'>Tools</a>
+                            <div class='dropdown-menu' style='background-color:#E1CD77;'>
+                                <a href="/python_tools/1.python_tools/python_tools.html" class='dropdown-item'>Python Tools</a>
+                                <a href="#" class='dropdown-item'>Boring Tools</a>
+                            </div>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='#' style='color:#d1b02a' title='work in progress'>Photos</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='/To-Dolist.html' target='_blank' style='color:#d1b02a'>To-DO List</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='/about.html' style='color:#d1b02a'>About</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <br><br><br>
+            <!-- Sidebar -->
+            <nav class="w3-sidebar w3-bar-block w3-collapse  w3-theme-l5 w3-animate-left" id="mySidebar" style='background-color:#d1b02a;'>
+                <a href="javascript:void(0)" onclick="w3_close()"
+                    class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+                    <i class="fa fa-remove"></i>
+                </a>
+                <h4 class="w3-bar-item"><b><a a class="w3-bar-item w3-text-black " href='../1.python_tools/python_tools.html'
+                            title='Go Back To Main Page' style='text-decoration: none;'>Other Tools:</b></h4>
+                <a class="w3-bar-item w3-button w3-hover-black" href="../3.rock_paper_scissors/rock_paper_scissiors.html" style='text-decoration: none;'>Rock,Paper,Scissiors</a>
+                <a class="w3-bar-item w3-button w3-hover-black" href="#" style='text-decoration: none;'>Taking Screenshots</a>
+                <a class="w3-bar-item w3-button w3-hover-black" href="#" style='text-decoration: none;'>Link</a>
+                <a class="w3-bar-item w3-button w3-hover-black" href="#" style='text-decoration: none;'>Link</a>
+            </nav>
+            
+            <!-- Overlay effect when opening sidebar on small screens -->
+            <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
+                id="myOverlay"></div>
+
+                <br><br><br><br>
+
+                
+                    <div class="w3-container w3-center w3-myfont">
+                        <p class="w3-xxxlarge" style='background-color: #231E07; color:#E1CD77; font-family:Times New Roman'>SYSTEM INFORMATION</p>
+                    </div>
+            
+            
+            <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+            <div class="w3-main" style="margin-left:250px">
+            
+                <div class="w3-row w3-padding-64" style='color:#fafad2;'>
+                    <div class="w3-twothird w3-container" >
+                        <h1 class="w3-text-teal">SOURCE CODE:</h1>
+                        
+                            <pre style='color:#fafad2; border: 1px solid;'>
+                                <br>
+                        import platform<br>
+                        <br>
+                        def system_information():<br>
+                        print('='*20,'System Information','='*20)<br>
+                        uname = platform.uname()<br>
+                        print(f"System: {uname.system}")<br>
+                        print(f"Node Name: {uname.node}")<br>
+                        print(f"Release: {uname.release}")<br>
+                        print(f"Version: {uname.version}")<br>
+                        print(f"Machine {uname.machine}")<br>
+                        print(f"Processor: {uname.processor}")<br>
+                        <br>
+                        if __name__ == '__main__':<br>
+                        system_information()<br>
+                                <br>
+                            </pre>
+                        
+                    </div>
+                    <!--
+                    <div class="w3-third w3-container">
+                        <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                        <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+                    </div>
+                    -->
+                </div>
+            
+                <div class="w3-row" style='color:#fafad2'>
+                    <div class="w3-twothird w3-container">
+                        <h1 class="w3-text-teal">OUTPUT:</h1>
+                        <pre style='color:#fafad2; border: 1px solid;'>
+                            <br>
+                        ========== System Information ==========
+                        
+                        System: Windows
+                        Node Name: DESKTOP-O6VJ0G9
+                        Release: 10
+                        Version: 10.0.18362
+                        Machine AMD64
+                        Processor: Intel64 Family
+                        6 Model 142
+                        Stepping 10,
+                        GenuineIntel
+                            <br>
+                        </pre>
+                        CAUTION: Output may differ.
+                    </div>
+                   <!-- 
+                    <div class="w3-third w3-container">
+                        <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                        <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+                    </div>
+                -->
+                </div>
+            
+                <div class="w3-row w3-padding-64" style='color:#fafad2'>
+                    <div class="w3-twothird w3-container">
+                        <h1 class="w3-text-teal">SCREEN SHOT:</h1>
+                        <p class="w3-border w3-padding-large w3-padding-32 w3-center">
+                            <img src="system_source.png" class='responsive' alt="source code">
+                            <img src="system_output.png" class='responsive' alt="output">
+                        </p>
+                    </div>
+                    <!--
+                        <div class="w3-third w3-container">
+                        <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                        <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+                    </div>
+                -->
+                </div>
+                
+                <!--Footer-->
+                <div class='jumbotron text-center '
+                    style='padding:30px; background-color:#1C1806 ; border:1px solid #D1B02A; color:#D1B02A; margin-right:5px;'>
+                    <p style='font-family:Times New Roman;'>Did You Expect To Find The <br>Social Media Link...<br>Well Opps!
+                        Sorry<br>No Social Media<br>😆</p>
+                </div>
+                <p style='color:#D1B02A; font-family:Verdana;'>Copyright &copy 2020</p>
+                </div>
+
+
+        </body>
+
+    </html>
+    
